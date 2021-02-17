@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jojos_board</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+  </script>
+
+</head>
+<body>
+  <h1>She can make BBQueteries, cookiecuteries, vegecuteries, fruitacuteries, cutecuteries.... whatever you want!</h1>
+  <h2>Check Out what people are saying about JoJo's Board on Insta!!</h2>
+
+      <div id="instagram-feed-demo" class="instagram_feed">
+<!-- https://www.sowecms.com/demos/jquery.instagramFeed/index.html -->
+<!-- THANKS FOR THE AWESOME CODE!! -->
+      <script src="instafeed.js"></script>
+
+      <script type="text/javascript">
+        (function($){
+          $(window).on('load', function(){
+            $.instagramFeed({
+              'tag': 'jojosboard',
+              'container': "#instagram-feed-demo",
+              'display_profile': true,
+              'display_biography': true,
+              'display_gallery': true,
+              'display_captions': true,
+              'items': 24,
+              'image_size': 120,
+              'items_per_row': 8,
+              'margin': 1,
+              'lazy_load': true,
+              'on_error': console.error,
+            });
+          });
+        })(jQuery);
+      </script>
+
+
+  </div>
+</body>
+</html>
