@@ -1,0 +1,51 @@
+:root {
+  font-style: sans-serif;
+  --headerColor: #fdf4f4ff;
+  --bodyColor: #f1c0c0;
+  --brigthColor: #ff6697;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bodyColor);
+
+}
+
+header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: var(--headerColor);
+  justify-content: space-between;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  background-color: var(--bodyColor);
+  color: gray;
+  border-color: transparent;
+  border-radius: 3px;
+  margin: 25px 5%;
+}
+
+#tagline {
+  font: 2em Ariel, sans-serif;
+  color: var(--brigthColor);
+}
+
+#logo {
+  padding: 0 5%;
+}
+img {
+  width: 100px;
+  height:auto;
+}
+
+.instagram_profile_image {
+  display: none;
+}
+
+.instagram_gallery {
+  margin: 0 5%;
+}

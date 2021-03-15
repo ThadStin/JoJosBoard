@@ -11,7 +11,7 @@
     var defaults = {
         'host': "https://www.instagram.com/",
         'username': '',
-        'tag': '',
+        'tag': 'jojosboard',
         'container': '',
         'display_profile': true,
         'display_biography': true,
@@ -24,7 +24,7 @@
         'items_per_row': 4,
         'margin': 0.5,
         'image_size': 640,
-        'lazy_load': false,
+        'lazy_load': true,
         'cache_time': 360,
         'on_error': console.error
     };
